@@ -70,7 +70,6 @@ function updateNavBar() {
     cartLi.innerHTML = `<a href="./cart.html" class="nav-link text-white">Cart: <span id="headCount"></span></a>`;
     navUl.appendChild(cartLi);
 
-    // RESTORED: Add the history link back
     const historyLi = document.createElement('li');
     historyLi.classList.add('nav-item');
     historyLi.innerHTML = `<a href="./purchase-history.html" class="nav-link text-white">History</a>`;
